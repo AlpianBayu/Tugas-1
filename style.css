@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document
+Panghaidar.wordpress.com
+ */
+
+body {
+	background-image: url(images/back.png);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#wrapper {
+	
+width:960px;
+margin:auto;	
+	
+}
+#header {
+	
+background-image:url(images/logo.png);
+background-repeat:no-repeat;
+height:145px;	
+}
+#main {
+	position:relative;
+	
+background-image:url(images/main.png);
+background-repeat:no-repeat;
+height:455px;	
+}
+form {
+	position:absolute;
+	top:140px;
+	left:711px;
+	height:185px;
+	background-image:url(images/send-form.png);
+	width:228px;
+}
+label {
+float:left;
+margin-left:15px;
+width:40px;	
+
+}
+input {
+	
+	border:none;
+	background-color:transparent;
+	background-image:url(images/input.png);
+	line-height:20px;
+	padding:4px 0;
+width:162px;	
+	
+}
+textarea {
+	
+border:none;
+	background-color:transparent;
+	background-image:url(images/textarea.png);	
+width:162px;
+line-height:20px;	
+	
+}
+p {
+	
+margin:5px 0;	
+}
+.push-top {
+	
+margin-top:40px;	
+	
+}
+
+.push-bottom {
+
+	background-image:url(images/enquiry.png);
+	height:38px;
+	width:209px;	
+	margin:15px 0 0 10px;	
+	
+}
+
+#main form p
+{
+  position:relative;
+}
+
+#main form p .errors
+{
+  display:block;
+  position:absolute;
+  left:-170px;
+  padding:5px;
+  background-color:white;
+  color:red;
+  border:1px solid;
+  top:0px;
+  width:auto !important;
+}
